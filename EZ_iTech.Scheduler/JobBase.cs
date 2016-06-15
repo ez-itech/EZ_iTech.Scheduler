@@ -27,6 +27,14 @@ namespace EZ_iTech.Scheduler {
         /// 使用指定的任务配置信息构造 Task 实例
         /// </summary>
         /// <param name="jobSetting"></param>
+        public JobBase(JobSetting jobSetting) {
+            JobSetting = jobSetting;
+        }
+
+        /// <summary>
+        /// 使用指定的任务配置信息构造 Task 实例
+        /// </summary>
+        /// <param name="jobSetting"></param>
         public JobBase(JobSetting jobSetting, Dictionary<int, Func<string>> funcs) {
             JobSetting = jobSetting;
             Funcs = funcs;
