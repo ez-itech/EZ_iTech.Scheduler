@@ -59,9 +59,8 @@
     <Compile Include="JobSetting.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="task.config.demo">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="EZ_iTech.Scheduler.nuspec" />
+    <None Include="task.config.demo" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
